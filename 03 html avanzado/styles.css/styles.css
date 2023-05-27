@@ -1,0 +1,47 @@
+
+/* table, th, td{ /*th=thead, td=celdas 
+    border: 1px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: grey;
+}
+*/
+/*
+a{
+    text-decoration: underline;
+    color: blue;
+}
+
+*/
+
+table{
+    border-style: 2px double black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    border: 2px solid #F2F7A1;
+    background-color: #00005C;
+    color: aliceblue;
+}
+
+td{
+    border: 2px solid #F2F7A1;
+    background-color: #6D67E4;
+    color: black;
+    border-collapse: collapse;
+}
+
+
+
+
+
+
+
+#Moltres{
+    width: 5px;
+    
+}
+
+

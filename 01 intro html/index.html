@@ -1,0 +1,342 @@
+<!DOCTYPE html> <!-- Declaración que representa el tipo de documento y ayuda a los navegoadores a mostrar correctamente las paginas web-->
+<html lang="en"> <!-- Se le conoce como elemento raíz-->
+<head> <!-- Actua como contenedor de todo lo que sea incluir en la pagina html que no es visible por los visitantes de la pagina. Incluye palabras clave, metadatos, vinculos, etc.-->
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web CH28</title>
+</head>
+<body>
+    <!--nombre de la etiqueta> el contenido ....</cierre de la etiqueta>-->
+    <p>Hola, soy un parrafo pequeñito</p>
+
+    <!--Etiquetas de cabecera (h1), ...(h6)-->
+    <h1>Soy una etiqueta h1</h1>
+    <h2>Soy una etiqueta h2</h2>
+    <h3>Soy una etiqueta h3</h3>
+    <h4>Soy una etiqueta h4</h4>
+    <h5>Soy una etiqueta h5</h5>
+    <h6>Soy una etiqueta h6</h6>
+
+    <p>Hola, me llamo Iber Alejandro. Soy un <b>estudiante de <u>desarrollador</u> java full stack</b> y estoy aprendiendo a utilizar los <i>elementos</i>, las <mark>etiquetas</mark> y atributos de HTML.
+        <p>Me gustar pasar tiempo escuchando musica.</p>
+        
+        <p><strong>ing. en negocios</strong> y gestión <em>empresarial</em> y <del>maneje</del> formulas como el H<sub>2</sub>O y Pi*r<sup>2</sup> </p>
+    </p>
+
+    <!-- Elementos de formato
+        <b></b> :formato en texto en negrito
+        <i></i> :cursivas
+        <mark></mark> :texto marcado o resaltado
+        <u></u> :formato de subrayado
+        <sub></sub> :bajar en numerito como en H2O
+        <sup></sup> :subir el numerito como r2
+        <del></delZ :Permite tachar texto
+        <blockquote></blockquote> : Poner citas
+        <strong></strong>: Texto importante 
+        <em></em> : Texto enfatisado, lector de texto hace enfasis
+
+    -->
+
+    <blockquote cite="http://html.conclase.net/w3c/html401...def-BLOCKQUOTE">
+        <p>Esta etiqueta nos permite citar un texto dentro de nuestro documento html, es decir proporciona un mecanismo para insertar signos de puntuación de citas antes y despues de una cita delimita.</p>
+    </blockquote>
+
+    <!-- Etietas divisorias y separadores
+    
+    <hr> nos sirve para dar una separacion entre nuestros párrafos. Se muestra en linea horizontal que usaremos como separador.
+    <br> nos sirve para poder poner espacio arriba y debajo del texto
+    
+    
+    -->
+
+
+    <hr>
+    <h3>Atributos de HTML</h3>
+    <!--Los atributos de HTML proporcionan información sobre los elementos HTML.
+    Todos los elemtos de HTML pueden tener atributos.
+    Los atributos siempre se espesifican en la etiqueta de incio.
+    Vienen en pares de nombres: nombre="Valor"
+    
+    -Atributos globales. Se pueden aplicar a todos los elemtos del documento, y no dependen de la etiqueta. Entre los atributos globales encontramos:
+        -class: Se usa para espesificar un conjunto de elemtos. Por ejemplo: <div "clase1"></div>
+        -id: Se usa para espesificar un identicar único para un elemento. Por ejemplo <div id="id1"></div>
+        -style: Se usa para especificar un propiedad de estilos que se aplicara al elemento. ejemplo: <h1 style="color:red;"> Hola </h1>
+        -event: Se usa para espesificar un evento que se ejecutará en un elemento.
+        -hidden: Se usa para ocultar un elemnto, ejemplo: hidden="hidden"
+    
+    -->
+
+    <p> Hola, me llamo Iber Alejandro. <b style="color: goldenrod;"> unestudiante de desarrollador java full stack</b> y estoy aprendiendo a utilizar los elementos, las etiquetas y atributos de HTML.</p>
+      <br>
+      <br>
+        <p align="center">Me gustar pasar tiempo escuchando musica.</p>
+
+        <!-- 
+    <p align="center"></p>
+    <p align="right"></p>
+    <p align="left"></p>
+    <p align="justify"></p> 
+    -->
+
+    <hr>
+    <h3>Etiqueta de enlace</h3>
+
+    <!--
+        Los enlaces nos permiten la navegación por medio de hipervinculos (links) que realizan una concexión y referencian otros archivos o paginas web dentro de la misma aplicación o externa a la misma.
+
+        Para los enlaces se utiliza la etiquera "anchor" (ancla) y represnta con una <a></a>
+        Los principales atributos de anchor son:
+            -href: nos permite definir la ubiación de la pagina a la que nos vamos a enlazar. Este atributo puede ser una URL (externa) o un archivo dentro de nuestro proyecto
+            -_blank: Abre el enlace en una nueva ventana.
+            -_self: Abre el enlace en la misma ventana (valor por default)
+
+        -Rutas absolutas:Son aquellas que definene la ubicación completa de un archivo o una pagina web, por ejemplo: http://www.google.com.mx
+        -Rutas realtivas:Se definen a partir de la posición en la estructura local de la pagina que lo está refiriendo, es decir, solo indica el orden de directorio, por ejemplo: /assets/img/tamalitodechipilin.jpg
+
+
+    -->
+    <a href="http://www.google.com.mx">Daclick aqui para visitar la pagina oficial de google</a>
+
+    <hr>
+    <br>
+
+    <a href="https://www.youtube.com/watch?v=-5sBlC-SmqQ&t=70s" target="_blank">mira este video</a>
+
+    <hr>
+    <br>
+
+    <a href="mailto: iber.diaz.go@gmail.com">Presiona para enviarnos un correo</a>
+
+    <hr>
+    <br>
+
+    <a href="/assets/images/tamalitos de chipilin.jpg" download>Descarga la imagen del tamlito de chipilin2</a>
+    <hr>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Clase martes 23/05/23-->
+
+        <a href="C:\Users\iberd\Documents\Generation CH28\01 intro html\assets\images\Chikis.jpeg" download>Presiona para descargar</a>
+
+        <br>
+
+        <h3>Etiqueta de imagen</h3>
+        <!--<img> etiqueta que sirve para almacenar imagenes
+            Atributos de imagen:
+            - src: El atributo source define la ubicación del archivo(local o remota)
+            - alt: Define un texto alterno a la imagen
+            - width: Define el ancho de la imagen
+            - height: Define el alto de la imagen
+        
+        -->
+            
+        <img src="/assets/images/Chikis.jpeg" alt="foto de chikis en el tronco" width="600px">
+
+        <img src="https://bing.com/th?id=OSK.87397e2c2d0b09c03d2dadd90c3968d5" width="20%" alt="Tamalito de masa colada">
+        
+        <a href="https://www.pinterest.com.mx/" target="_blank"> <img src="/assets/images/Fondo de persona en ciudad oscura neon.jpeg" width="20%" alt="fondo de persona en ciudad de neon">
+        </a>
+
+        <h3>Listas</h3>
+        <!-- Listas ordenadas y listas desordenadas
+        Ordenadas: Siguen una secuencia de jerarquia (1, 2, 3, 4...)
+                1. Tamalito de chipilin
+                2. Tamalito de masa colada
+                3. Tamalito de maíz nuevo
+                4. Tamalito de shis de chicharron
+        Desordenadas: no siguen un proceso, por lo tanto no hay una numeración sino que existen viñetas
+                - Kiara
+                - Laika
+                - Lucky
+                - Morgan
+                - Appa
+
+        <ol> Ordered list o lista ordenada </ol>
+        <ul> Lista desordenada </ul>
+        <li> List item o elementos de la lista </i>
+        
+        -->
+        <br>
+        
+        <h4>Lista ordenada</h4>
+        
+        <ol>Lista de asistencia
+            <li>Armando</li>
+            <li>Carlos</li>
+            <li>Mari</li>
+            <li>Zabdiel</li>
+            <li>Jose</li>
+        </ol>
+
+        <br>
+
+        <ul>Nombre de mascotas de la CH28
+            <li>Kiara</li>
+            <li>Laika</li>
+            <li>Lucky</li>
+            <li>Morgan</li>
+            <li>Appa</li>
+        </ul>
+
+        <hr>
+
+        <ol>Tacos Mexicanos
+
+            <li>Pastor</li>
+            <ul>
+                <li>Salsa de la que pica</li>
+                <li>Salsa de la que no pica</li>
+            </ul>
+            <li>Sueadero</li>
+                <ol>
+                    <li>Con queso</li>
+                    <li>Sin queso</li>
+                    <li>Con papas</li>
+                </ol>
+            <li>Carnita</li>
+                <ol>
+                    <li>Surtida</li>
+                        <ul>
+                            <li>Natural</li>
+                            <li>Con todo</li>
+                        </ul>
+                    <li>Maciza</li>
+                    <ul>
+                        <li>Natural</li>
+                        <li>Con todo</li>
+                    </ul>
+                </ol>
+            <li>Canasta</li>
+        </ol>
+
+        <hr>
+        <!--Lista de videojuegos practica-->
+        <ol><b>Tipos de videojuegos</b>
+        
+            <li>Construcción</li>
+                <ol>
+                    <li>Tematica espacial</li>
+                        <ul>
+                            <li>No Mans Sky</li>
+                                <a href="https://scholarlygamers.com/review/2018/08/13/no-mans-sky-review/" target="_blank"><img src="/assets/images/no mans sky prueba.jpg" width="10%"></a>
+                        </ul> 
+                    <li>Tematica Prehistoria</li>  
+                        <ul>
+                            <li>ARK</li>
+                        </ul> 
+                    <li>Tematica edad moderna</li>
+                        <ol>
+                            <li>Minecraft</li>
+                            <li>The Forest</li>
+                        </ol>      
+                </ol>
+            <li>Carreras</li>
+                <ul>
+                    <li>Crash time racing</li>
+                    <li>Gran Turismo</li>
+                    <li>The Crew</li>
+                </ul>
+            <li>Juego Mundo abierto</li>
+                <ul>
+                    <li>Viejo Oeste</li>
+                        <ol>
+                            <li>Red Dead Redemtion 1 y 2</li>
+                            <li>Fistul Gun</li>
+                        </ol>
+                    <li>Edad Moderna</li>
+                        <ol>
+                        <li>GTA V</li>
+                        <li>Metal Gear</li>
+                        </ol>
+                </ul>
+        </ol>
+        <hr>
+
+        <h4>Lista de definiciones</h4>
+        <!--Las listas de deficiones nos permiten contener propiamente definiciones.
+            <dl>Nos sirve para indicar que es una definición list o lista de definición</dl>
+            <dt>Nos indica que es una definition term o término de definición</dt>
+            <dd>nos indica una definición</dd>
+        
+        -->
+
+        <dl>
+            <dt>Perrito</dt>
+            <dd>Es un animal mamífero de cuatro patas, bonitos, que viven en casas y algunos viven en las calles :c</dd>
+        </dl>
+
+        <dl>
+            <dt>Gatito</dt>
+            <dd>Es una animal mamífero felino, con garritas ocultas, independiente, que le gusta andar visitando otras casas</dd>
+        </dl>
+
+        <dl>
+            <dt>Conejo</dt>
+            <dd>Es un animal mamífero pequeñito con orejas largas que dicen que comen zanahorias, pero comen mas alfalfa</dd>
+        </dl>
+
+        <hr>
+        <h3>Etiqueta de división</h3>
+        <!--La etiqueta de divisón se utiliza como contenedor de elemntos html, que luego se diseñan con CSS, o se manipulan con JavaScript
+            La etiqueta <div></div> se diseña facilmente utiliznado los atributos globales de "class" "id"
+
+            ¡Se puede poner cualquier tipo de contenido dentro de la etiqueta <div>!
+        -->
+
+        <h4>El elemento div</h4>
+            
+            
+            <div>Hola, soy un contenedor con un texto</div>
+            
+            <div>
+                <h5>Soy un h5 dentro de un div</h5>
+                <p>Soy un parrafo viviendo en un div</p>
+            </div>
+
+            <!--<p>este es un parrafo de comparacion</p>-->
+        <div id="contenedorAbuelo" style="color:gray; border: 1px solid black; background-color: skyblue;">Soy un abuelito
+            <div class="container" id="contenedorPadre" style="color:blue; border: 1px solid red; background-color: gold;"> <!--Este div funciona como contenedor-->
+            <p>Hola, soy un parrafo en un div</p>
+            <h4>Hola, soy h4 hermano del parrafo</h4>
+                <div class="container" id="contenedorhijo" style="color: red; border: 3px solid green; background-color: aqua;">Hola, soy un div dentro de un div
+                        <div id="contenedorNieto" style="color:yellowgreen; border: 1px solid purple; background-color: gray;">Hola de nuevo soy el div negrito
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    <h3>Etiqueta span</h3>
+        <!--La etiqueta span es un contenedor de linea que se utiliza para marcar una parte de un texto o una parte de un documento
+        Es parecido a <div> pero <span></span> es un elemento a nivel liena-->
+
+        <p>Chikis, es mi gatita la pequeña.
+
+        Cuando ella <span style="color: green;">llego</span> estaba muy chiquita, se le dio <span style="color: blueviolet;font-weight: 100;">mucho amor, comida y cuidado.</span> Pero nos dimos cuenta que así ya era <span style="color: blue">chiquita.</span> Su comida preferida el pollo.              
+        A ella le encanta salir por las mañanas a oler las flores, les gusta revolcarse en el pasto y restregarse en los arbolitos.          
+        Es muy tranquila, pero seguido le da su ataques de amor intenso. Tiene muchos juguetes pero no le gusta jugar con ellos, prefiere estar acostadita o echar chisme en la ventana.     
+                
+        </p>
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+</html>
