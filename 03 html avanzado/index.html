@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css/styles.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -118,7 +119,7 @@
                 <th>jueves</th>
                 <th>Viernes</th>
             </thead>
-            <tbody id="Tabla3">
+            <tbody>
                 <tr><!--Horario (8.00-9.00)-->
                     <td>8:00 - 9:00</td>
                     <td>Matematicas</td>
@@ -146,14 +147,257 @@
             </tbody>
         </table>
 
+        <hr>
+        <br>
+
+    <!--
+    ===============================================================
+    Vínculos HTML 29/05/23
+
+    Crear marcadores en HTML.
+    Los amrcadores son útiles cuando tienes una página web muy larga. Para crear un amrcador siga los siguientes pasos:
+        1. Indicar un atributo (id) para el marcador
+        2. Crear el marcador y agregar un enlace
+
+    
+    -->
+
+<br>
+<hr>
+
+<a href="#parrafito3">Parrafito 3</a>
+
+<br>
+<a href="/html/login.html">Inicia sesión</a>
+<br>
+<a href="/html/login.html#p4">Mira el párrafo 4 del login</a>
+
+
+    <p id="parrafito1">
+        P1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit incidunt, quas mollitia unde ullam ipsum! Consequatur quidem deleniti quam at repudiandae officia laboriosam molestiae praesentium odit ab, sequi modi quod?
+    </p>
+
+
+    <p id="parrafito2">
+        P2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facere possimus, quos distinctio aperiam mollitia nemo rem voluptate dolore repellat excepturi reiciendis in at ut officia magnam. Aliquam, odit? Modi.
+    </p>
+
+    <p id="parrafito3">
+        P3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, rerum, esse voluptates voluptatum laboriosam eveniet ea vitae fugit, excepturi cupiditate impedit nostrum! Fugiat, vel neque doloremque delectus minus nam officiis!
+    </p>
+
+    <hr>
+
+    <!--
+    ============================================
+    Formularios de HTML
+
+        Elementos que se encarga de recopilar información del usuario para enviarlo a un servidor para u procesamiento.
+
+    ---Elementos de un formlario
+    <form></form> se utiliza para crear un formulario HTML para la entrada de un usuario.
+
+    Diferentes tipos de entrada como: campos de texto, casillas de verificación, botones de opción, botones de envió, etc...
+
+    -->
+
+    <form action="">
+        <label for="user">Nombre de ususario</label>
+        <input type="text" id="user" name="user">
+    </form>
+
+    <br>
+
+    
+
+    <!--Elemento <label>
+        Define una etiqueta para formularios y es útil para los ususarios de lectores de pantalla. Cuando el ususario hace click en el texto dentro del elemento <label> alterna el boton de opción/casilla de verificación.
+            - form: debe ser igual al atributo id del elemtno <input> para unirlos    
+
+        ---Elemnto <input>
+        Es el elemento de formluario más usado y se puede mostrar según el atributo "type"
+
+        Tipos de input (type):
+            - text: Permite introducir texto
+            - password: Permite introducir una contraeña y agregar asteriscos o puntos para ocultar la información.
+    -->
+
+    <form>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password">
+        
+        <br>
+        <br>
+        <!--number. Tipo numérico para elegir números. Se pueden definir números mínimos (min="número") o números máximos (mas="número")-->
+        <label for="Edad">Escribe tu edad</label>
+        <input type="number" name="Edad" id="Edad" min="5" max="10" placeholder="Mínimo 5 años y máximo 10 años" >
+        <br>
+        <br>
+
+        <!--Solicita el uso de la @ para escribir-->
+
+        <label for="correo_elect">Escribe tu correo electrónico</label>
+        <input type="email" name="correo_elect" id="correo_elect">
+
+        <br>
+        <br>
+
+        <!--Si queremos un cuadro de texto para realizar comentarios se utiliza la etiqueta <textarea> 
+        -->
+        <label for="comentarios">Escribe un comentario</label>
+        <textarea name="comentarios" id="comentarios" placeholder="Máximo 150 palabras"></textarea>
+
+        <br>
+        <br>
+
+        <!--date. Despliega un aclendario para seleccionar día, mes y año en formato (dd-mm-aaaa)-->
+
+        <label for="nacimiento">Selecciona tu fecha de nacimiento</label>
+        <input type="date" id="nacimiento" name="nacimiento">
+
+        <br>
+        <br>
+
+        <!--radio. Define un botón de opción. Permite al ususario seleccionar solamente UNA opción de un número de opciones-->
+
+        <p>Elige tu lenguaje de programación fav</p>
+        <input type="radio" id="java" name="lenguaje_fav" value="java">
+        <label for="java">JAVA</label>
+        <br>
+        <input type="radio" name="lenguaje_fav" id="javascript" value="javascript">
+        <label for="javascript">JAVASCRIPT</label>
+        <br>
+        <input type="radio" name="lenguaje_fav" id="python" value="python">
+        <label for="python">PHYTON</label>
+
+        <!--checkbox. Define una casilla de verificación, donde el usuario puede seleccionar CERO o más opciones de un número limitado de opciones -->
+        <br>
+
+        <p>Selecciona los idiomas que hablas</p>
+
+        <input type="checkbox" name="idioma1" id="idioma1" value="english">
+        <label for="idioma1">Inglés</label>
+        <br>
+
+        <input type="checkbox" name="idioma2" id="idioma2" value="spanish">
+        <label for="idioma2">Español</label>
+        <br>
+
+        <input type="checkbox" name="idioma3" id="idioma3" value="french">
+        <label for="idioma3">Frances</label>
+        <br>
+        <br>
+
+        <!--file. Es un campo de selección de archivos y un botón "Examinar" que permite cargar archivos-->
+
+        <label for="miArchivo">Selecciona un archivo</label>
+        <input type="file" name="miArchivo" id="miArchivo">
+        <br>
+        <br>
+
+        <!--Experimentando con documentación
+        - range.
+        -->
+
+        <label for="vol">Volumen (entre 0 y 50)</label>
+        <input type="range" name="vol" id="vol" min="0" max="50">
+
+    </form>
+
+
+    <!--==================== Botones =============================
+
+        Permiten controlar el envio de información del ususario. El type="submit" envía al servidor lo que se escribe y el type="rest" permite resetear la información conenida en el formulario
+    -->
+
+        <!--Diseñar un formulario de registro para una página de videojuegos
+    Todos los campos deben ser obligatorios "required"
+        - Nombre: "text"
+        - Apellido: "text"
+        - Nombre de ususario: "text"
+        - Correo electronico: "email"
+        - Edad (mínimo 18 años): "number"
+        - Contraseña: "password"
+        - Boton que diga "registrarse" <button></button>
+        - Boton que diga "limpiar formulario" 
+
+        -->
+
+        <br>
+        <br>
+        <hr>
+
+        <h4>Apex Legends</h4>
+
+    <!--Cuando el atributo action esta en blanco, la solicitud de envió del formulario se enviará a la misma página. es decir, cuando se envié el formulario, los datos se enviarán al mismo UL.
+
+    Para hcer que los datos del formulario se envien a una URL especifica, debemos establecer dicha URL dentro de action-->
+    <form action="/action_page.php" method="post" id="Apex_Legends">    
+
+        <label for="user1">Nombres</label>
+        <input type="text" name="user1" id="user1" required>
+        <br>
+        <br>
+        <label for="apellido">Apellidos</label>
+        <input type="text" name="apellido" id="apellido" required>
+        <br>
+        <br>
+        <label for="user">Nombre de ususario</label>
+        <input type="text" name="user" id="user" required>
+        <br>
+        <br>
+        <label for="correo_elect">Introduce tu correo electronico</label>
+        <input type="email" name="correo_elect" id="correo_elect" required>
+        <br>
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="18" required>
+        <br>
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Limpiar Formulario</button>
+
+    </form>
+
+    <hr>
+    <br>
+
+    <h4>Inicia sesión</h4>
+    <form action="/action_information.php" method="get" id="formulario2">
+
+        <label for="user">Nombre de ususario</label>
+        <input type="text" name="user" id="user" required>
+        <br>
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <br>
+        <button type="submit">Iniciar sesión</button>
+    </form>
+
+
+    <!--=============== Botón enviar ==================
+    
+        type="submit" define un botón para enviar los datos del formulario a un controlador de formulario. El controlador de formulario suele ser un archivo con un script para procesar los datos de entrada
+        El controlador de formulario se especifica en el atributo  action del formulario.
+    
+    -->
+
+<!---prueba-->
 
 
 
 
-
-
-
-
+    <br>
+    <br>
+    <br>
 
 </body>
 </html>

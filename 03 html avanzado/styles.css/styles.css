@@ -12,12 +12,13 @@ a{
     color: blue;
 }
 
-*/
+
 
 table{
     border-style: 2px double black;
     border-collapse: collapse;
     text-align: center;
+    
 }
 
 th{
@@ -36,12 +37,39 @@ td{
 
 
 
-
-
-
 #Moltres{
     width: 5px;
     
 }
+*/
+table, th, td{ 
+    border: 1px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: grey;
+}
+#Moltres{
+    width: 5px;
+    
+}
+
+/*
+.form1{
+    background-color: blue;
+}
+*/
+
+
+#Apex_Legends{
+    border-style: solid;
+    border-color: darkred;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
