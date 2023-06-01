@@ -1,0 +1,25 @@
+.media {
+    text-align: center;
+}
+
+/* @media (orientation: landscape) {
+    h1 {
+        color: var(--contrast);
+        font-size: 1.5rem;
+    }
+
+    div {
+        display: grid;
+        columns: auto auto;
+    } 
+} 
+*/
+
+@media (max-width: 500px)  {
+    h1 {
+        color: var(--primary);
+        font-size: 3rem;
+    }
+}
+
+

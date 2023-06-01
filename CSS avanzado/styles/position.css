@@ -1,0 +1,49 @@
+.container {
+    height: 1500px;
+}
+
+
+/* Static es el posicionamiento default de elementos HTML */
+/* No se ve afectado por top, bottom, left, right */
+.static {
+    position: static;
+    top: 200px;
+}
+
+/* 
+Relative se modifica a partir de su posicion natural estatica 
+*/
+.relative {
+    position: relative;
+    /* bottom: 20px; */
+}
+
+/* 
+Coloca al elemento a partir del viewport. top, left, bottom, right se ven afectadas segun las dimensiones de la ventana
+*/
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
+
+/* 
+Coloca el elemento a partir de las dimensiones de su elemento superior que lo engloba
+No toma encuenta el viewport para top, bottom, left, right
+*/
+.absolute {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+
+
+/* 
+Coloca al elemento en realcion al vp, 
+Si usando scroll legamos a la posicion del elemento sticky, se va a mantener disponible en el viewport hasta el final de nuestra pagina
+*/
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
