@@ -104,3 +104,62 @@ var diasMes = 30;
 
 
 const pi = 3.14116;
+
+
+///////////////////////////////////////////////////
+
+// Arrays y objetos
+
+/*
+
+Array, también conocido como Arreglo, es un tipo de dato que pertenece a JS, en el cual almacena una colección de elementos de manera ordenada
+
+Primer elemento = indice 0.
+Hasta n cantidad de indices.
+
+*/
+
+var ejmploDeArray = ['Saludos', 'Que onda', 'Que hay', 'Que dice', 'Buenos días' ]
+
+var otroArray = [31, 564, 117, 6, 321]
+
+
+/*
+
+Objetos, los encontramos como Object
+Son tipos de dato similares a los Arrays, sin embargo
+NO SON LO MISMO y su estructura y semántica indican al
+motor de JS del navegador como trabajar con estos 
+elementos
+
+key = llave
+value = valor
+No tienen un orden
+Formato JSON
+
+*/
+
+var ejemploDeObejeto = {
+    nombre: 'Alejandro',
+    apellido: 'Díaz',
+    edad: 29,
+    esestudiante: true,
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
