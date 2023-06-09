@@ -162,3 +162,72 @@ let sliceC28 = ch28.slice(7);
 console.log(ch28);
 console.log(sliceC28);
 
+let agregandoMagali = ch28.unshift("Magali");
+console.log(ch28);
+
+//--- forEach. Rocerrre el array, itera sobre cada elemento y ejecuta una función de devolución para cada elemento.
+
+ch28.forEach(elemento => console.log(elemento));
+
+//--- sort. Ordanamiento de arrays. A - Z
+let sortCh28 = ch28.sort();
+console.log(ch28);
+
+
+//--- reverse() cambia el sentido del ordenamiento
+let reverseCh28 = ch28.reverse();
+console.log(ch28);
+
+let reverseCh28b = ch28.reverse();
+console.log(ch28);
+
+/*================= OBJETOS EN PROGRAMACIÓN ======================
+
+un automovil es un objeto en la vida, ya que tiene propiedades y métodos especificos.
+
+--- Propiedades del automovil 
+nombre
+modelo
+número de llantas
+peso
+color
+etc...
+
+---Métodos
+frenar
+avanzar
+arrancar
+etc...
+
+A pesar de tener propiedades similares, los valores de dichas propiedades son diferentes entre cada uno.
+También los métodos son similares, se van a ejecutar en momentos diferentes.
+
+Todos los objetos poseen propiedades y métodos con valores diferentes.
+
+Sintaxis
+    const object = {key1(propiedad): value1, key2(propiedad2)): value2, key3(pri¿opiedad3): value3, ...}
+
+
+*/
+
+const automovil ={
+    marca: "Kia",
+    clase: "Forte",
+    peso: 900,
+    color: "Gris, óxido",
+    modelo: 2022,
+    llantas: 4,
+    puertas: 4,
+}
+console.log(automovil);
+
+// Acceder a las propiedades y valores de un objeto.
+
+
+let marcaAutomovil = automovil.marca;
+console.log(marcaAutomovil);
+
+console.log(automovil.modelo);
+
+
+
