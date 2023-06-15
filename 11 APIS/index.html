@@ -9,19 +9,34 @@
 
     <script src="./src/main.js" async defer></script>
     <script src="./src/async.js" async defer></script>
+    <script src="/src/login.js" async defer></script>
 
 </head>
 <body>
-    
-    <button class="btn-count" id="btn-count">
-        +
-    </button>
-    <p id="contador"></p>
+        
+        <button class="btn-count" id="btn-count">
+            +
+        </button>
+        <p id="contador"></p>
 
-    <button class="btn-count2" id="btn-count2">
+        <button class="btn-count2" id="btn-count2">
         -
-    </button>
-    <p id="contador"></p>
+        </button>
+        <p id="contador"></p>
+
+
+        <section class="form-section">
+            <div class="container">
+
+                <form action="/Paginas/pokemons.html" method="">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" pattern="^[\w.+\-]+@gmail\.com$" required>
+                    <input type="submit" value="Enviar datos" id="btn-submit">
+                </form>
+    
+
+            </div>
+        </section>
 
 </body>
 </html>

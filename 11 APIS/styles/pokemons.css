@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+    .card img {
+    max-width: 100%;
+}
+    .types {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+    .types li {
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}

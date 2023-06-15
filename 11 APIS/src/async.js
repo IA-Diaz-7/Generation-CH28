@@ -34,7 +34,7 @@ f();
 const btn = document.getElementById('btn-count');
 const p = document.getElementById('contador');
 
-let counter = 50;
+let counter = 0;
 
 
 btn.addEventListener('click', async () => {
