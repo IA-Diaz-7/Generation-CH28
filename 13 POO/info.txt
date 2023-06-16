@@ -1,0 +1,34 @@
+===== PROGRAMACIÓN ORIENTADA A OBJETOS
+
+Pilares de la POO
+-Polimorfismo
+-Herencia
+-Abstracción
+-Encapsulamiento
+
+Clase: Plantilla o molde a partir del cual se crean los objetos. Permite definir como debe verse y qué debe hacer un objeto (estado y comportamiento), con atributos y métodos.
+
+Objeto: Tiene una existencia real porque ocupa memoria y se puede utilizar dentro del programa.
+
+Instancias: Para poder utilizar una clase, necesitamos instanciarla, consiste en crear un objeto concreto de la misma.
+
+Las instancias sirven para definir los objetos y que estos ejecuten sus atributos de forma correcta.
+
+--- Generalidades
+
+La diferencia entre clase y objeto, la clase sirve de modelo para crear el objeto, y el objeto es una entidad que consta de características específicas.
+
+Si dos objetos pertenecen a una misma clase porque tiene distintos atributos y comportamientos.
+
+--- Principios SOLID
+SOLID es el acrónimo con el que se concoe a una serie de reglas o 'buenas prácticas' para construir código cuando trabajamos con programación orientada a objetos.
+
+- Single Responsability: Recomienda que cada clase o servicio tenga una sola responsabilidad así no impacta en otras áreas de nuestro código.
+
+- Open / Closed: Debemos escribir nuestras clases de forma que su comportamiento pueda ser extendido sin necesidad de modificar su código para manejar cada caso por separado.
+
+- Principio de Sustitución de Liskov: Para que cada clase se considere bien diseñada, cada instancia de una clase hija debería poder ser reemplazada por su superclase sin que haya problemas en nuestro código. No deberíamos entonces tener hijos que no puedan cumplir las tareas de la clase base.
+
+- Interface Segregation: Una clase no debería recibir código que no va a utilizar. En lenguajes donde se pueden implementar interface significa que la clase debería implementar TODOS los métodos de la interface. Si esto no se cumple deberíamos considerar replantear nuestras interfaces de manera separada.
+
+- Dependency Inversion Principle: Implica que nuestros modulos de alto nivel no deben depender de modulos de bajo nivel. Ambos deben depender de abstracciones.
