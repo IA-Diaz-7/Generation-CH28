@@ -2,7 +2,9 @@
     display: grid;
     gap: 20px;
     
+
     /*
+    grid-template-columns: es para definir columnas;
     grid-template-columns: 150px 200px 400px; 
     grid-template-
     grid-template-rows: auto auto;
@@ -11,7 +13,7 @@
 
     grid-template-columns: repeat(3, auto);
 
-    height: 400px;
+    height: 300px;
     align-content: center;
     justify-content: center;
 }
@@ -19,7 +21,7 @@
 
 .grid > div {
     text-align: center;
-    border: 3px solid var(--info);
+    border: 3px double var(--info);
 
 }
 

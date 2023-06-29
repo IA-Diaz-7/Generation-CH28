@@ -4,7 +4,7 @@ const pokeContainer = document.getElementById('pokemons-container');
 const btnFetch = document.getElementById('btn-fetch');
 
 btnFetch.addEventListener('click', async () => {
-    const pokemons = await fetchPokemon(BASE_URL + '/pokemon?limit=151');
+    const pokemons = await fetchPokemon(BASE_URL + '/pokemon?limit=152');
 
     pokemons.results.forEach(async (pokemon) => {
         const data = await fetchPokemon(BASE_URL + '/pokemon/' + pokemon.name);
