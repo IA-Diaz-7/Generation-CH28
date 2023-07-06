@@ -1,0 +1,58 @@
+codigo-otros-4
+
+
+//Iber Alejandro Diaz.
+//calificacion 4
+
+
+package ejerciocio4;
+
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+	
+		    Scanner scanner = new Scanner(System.in);
+		    
+		    System.out.print("Turno del jugador 1 (introduzca piedra, papel o tijeras): ");
+		    String jugador1 = scanner.nextLine();
+		    
+		    System.out.print("Turno del jugador 1 (introduzca piedra, papel o tijeras): ");
+		    Scanner scanner2 = new Scanner(System.in);
+		    String jugador2 = scanner2.nextLine();
+		    
+		    if (jugador1 == jugador2)) {
+		      System.out.println("Empate");
+		    } else {
+		      int gana = 2;
+		      switch(jugador1) {
+		        case "piedra":
+		          if (jugador2 == "tijeras") {
+		            gana = 1;
+		          }
+
+		        case "papel":
+		          if (jugador2 == "piedra") {
+		            gana = 1;
+		          
+		        case "tijera":
+		          if (jugador2.equals("papel")) {
+		            gana = 1;
+		          }
+		          break;
+		        default:
+		      }
+		      System.out.println("Gana el jugador " + gana);
+		    }
+		  
+		  
+		
+		
+		
+		
+		      
+	}
+
+}
+}
